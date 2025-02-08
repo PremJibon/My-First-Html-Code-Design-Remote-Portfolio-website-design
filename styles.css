@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+
+    margin: 30px;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-family: "Inter", serif;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.nav .container {
+    display: flex;
+}
+
+.nav .container img {
+    border-radius: 50%;
+}
+
+.nav .container h3 {
+    padding-left: 20px;
+   
+    align-items: center;
+}
+
+.nav .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .nav-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.nav .nav-items ul li {
+    margin-right: 30px;
+    padding-top: 2px;
+   
+    font-size: 12px;
+}
+
+.nav .nav-items ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.nav .nav-items .button {
+    background-color: #F3DB61;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   
+    border-radius: 2px;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-style: none;
+}
+
+.hero {
+    display: flex;
+    background-color: #236C44;
+    overflow: hidden;
+    padding: 50px;
+    padding-bottom: 0px;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+.hero .container {
+    width: 50%;
+}
+
+/* .hero .image-container img{
+    width: 500px;
+} */
+
+.hero .image-container {
+    margin-left: 70px;
+    width: 50%;
+
+}
+
+.hero .container .hire-button {
+    background-color: #F3DB61;
+    border-style: none;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 4px;
+
+}
+
+.clients {
+    display: flex;
+
+    background: linear-gradient(to bottom, white, #e3f2fd);
+
+}
+
+.clients .container {
+    width: 35%;
+    margin: 100px;
+    margin-right: -220px;
+}
+
+.clients .client-images {
+    margin: 100px;
+    width: 40%;
+    margin-left: 220px;
+}
+
+.clients .client-images .con1 {
+    display: flex;
+
+}
+
+.clients .client-images .con2 {
+    display: flex;
+}
+
+.clients .client-images .con1 img {
+    width: 245px;
+    margin: 8px;
+}
+
+.clients .client-images .con2 img {
+    width: 245px;
+    margin: 8px;
+}
+
+/* services container */
+.services-container {
+    display: block;
+    background-color: #e3f2fd;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-container h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.services-container .container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.services-container .p {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services-container .container .card {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+}
+
+.services-container .container .card .service-img {
+    width: 300px;
+}
+
+.services-container .container .card p {
+    width: 300px;
+}
+.services-container .container .card a {
+   color: #236C44;
+   text-decoration: none;
+}
+/* experience container */
+.exp{
+    display: flex;
+    margin-top: 30px;
+}
+.exp .container{
+    display: grid;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.exp .container img{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.exp .container h1{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.exp .container p{
+    justify-content: center;
+    margin-top: -16px;
+    margin-left: auto;
+    margin-right: auto;
+    color: grey;
+}
+.exp .container hr{
+    color: rgb(128, 17, 36);
+}
+.line {
+    border-bottom: 5px dotted rgb(57, 191, 196);
+    margin-top: 90px;
+    width: 150%;
+    margin-left: -230px;
+    height: -100px;
+}
+/* testimonial section */
+.testimonial{
+    margin-top: 100px;
+    display: flex;
+}
+.testimonial .container{
+    margin: 30px;
+}
+.testimonial .container .joe{
+    width: 500px;
+}
+.testimonial .container .quote{
+    background-color: #FAF1C0;
+    margin: 20px;
+    padding: 26px;
+    margin-left: -6px;
+    border-radius: 12px;
+}
+.testimonial .container .quote-img{
+    display: grid;
+}
+.testimonial .container .quote-img .chevron{
+    margin-top: -25px;
+    margin-left: 35px;
+}
+.testimonial .container .foto{
+    display: flex;
+    margin-top: 20px;
+}
+.testimonial .container .foto div{
+    margin-left: 12px;
+}
+.testimonial .container .foto .button{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.testimonial .container .foto .button .btn1{
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    border-color: #FFD91A;
+    background-color: #ffffff;
+}
+.testimonial .container .foto .button .btn2{
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #FFD91A;
+    border-color: #FFD91A;
+}
+/* contact me section */
+.contact{
+    background-color: #0E2B1B;
+    display: flex;
+    border-radius: 12px;
+}
+.contact .container{
+    padding: 90px;
+    margin: 20px;
+   
+}
+.contact .container .contact-me-button{
+    background-color: #F3DB61;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+    border-radius: 4px;
+    font-weight: 600;
+    
+}
+.contact .container .message-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #154129;
+    border-radius: 7px;
+    margin: 22px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 60px;
+    color: #ffffff;
+}
+.contact .container .message-container img{
+    margin: 14px;
+}
+.contact .container .message-container div p{
+    margin-top: 22px;
+}
+
+/* footer */
+
+.footer-widget{
+    display: flex;
+    margin-top: 150px;
+}
+.footer-widget .container .img-h3{
+    display: flex;
+}
+.footer-widget .container img{
+    border-radius: 50%;
+
+}
+.footer-widget .container h3{
+    margin-left: 17px;
+}
+.footer-widget .container-menu{
+    display: flex;
+    margin: auto;
+    
+}
+.footer-widget .container-menu .footer-menu{
+    margin: 30px;
+    margin-top: -25px;
+  
+   
+}
+.footer-widget .container-menu .footer-menu ul{
+    margin-left: 15px;
+}
+.footer-widget .container-menu .footer-menu ul li{
+    list-style: none;
+    margin: 20px;
+    color: grey;
+}
+
+.hr {
+    border: none;
+    margin-top: 25px;
+    border-top: 1px solid rgba(128, 128, 128, 0.479);
+}
+.footer p{
+    margin-top: 18px;
+    text-align: center;
+    font-size:14px;
+    color: grey;
+}
